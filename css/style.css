@@ -33,12 +33,12 @@ CSS Style Structure
 
 html {
 	width: 100%;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 body {
 	color: #767676;	
-	~webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 	width: 100%;
 }
 
@@ -92,6 +92,7 @@ h4 {
 	font-family: "Myriad Pro" , sans-serif;
 	text-transform: uppercase;	
 	margin: 0;
+	color: #fff;
 }
 
 h5 {
@@ -174,9 +175,9 @@ p.description {
 	background-image: url(../images/header-image.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
-	~webkit-background-size: cover;
-	~moz-background-size: cover;
-	~o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
@@ -217,4 +218,37 @@ p.description {
 	background-color: #f79b23;
 	color: #fff;
 	text-decoration: none;
+}
+
+.scrolldown {
+	padding-top:24px;	
+}
+
+#bgimage .scroll_btn {
+	background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215,181,94,0);
+	border: 2px solid #fff;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	display: block;
+	height: 45px;
+	margin: 42px auto;
+	-webkit-transition: all 500ms ease-in-out 0s;
+	-moz-transition: all 500ms ease-in-out 0s;
+	-ms-transition: all 500ms ease-in-out 0s;
+	-o-transition: all 500ms ease-in-out 0s;
+	transition: all 500ms ease-in-out 0s;
+	width: 45px;
+}
+
+#bgimage .scroll_btn:hover {
+	background: url(../images/scroll.gif) 50% 50% no-repeat #E03561;
+	opacity: 0.85;
+	-moz-opacity: 0.85;
+	-o-opacity: 0.85;
+	-webkit-opacity: 0.85;
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
 }
