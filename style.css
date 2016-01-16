@@ -26,3 +26,123 @@ CSS Style Structure
 15. Scrollup section
 
 */
+
+/*
+1. General
+*/
+
+html {
+	width: 100%;
+	overflow: hidden;	
+}
+
+body {
+	color: #767676;	
+	~webkit-font-smoothing: antialiased;
+	width: 100%;
+}
+
+.top-margin {
+	margin-top: 96px;		
+}
+
+.bottom-margin {
+	margin-bottom: 96px;		
+}
+
+p {
+	font: normal 16px "Myriad Pro", arial, sans-serif;	
+	color: #939898;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #767676;	
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 50px;
+	font-weight: 600;
+	font-family: "Myriad Pro" , sans-serif;
+	text-transform: uppercase;	
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 38px;
+	font-weight: 600;
+	font-family: "Myriad Pro" , sans-serif;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 600;
+	font-family: "Myriad Pro" , sans-serif;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 600;
+	font-family: "Myriad Pro" , sans-serif;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+h5 {
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 600;
+	font-family: "Myriad Pro" , sans-serif;
+	text-transform: uppercase;	
+	margin: 0;
+	text-decoration: none;
+}
+
+h6 {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 600;
+	font-family: "Myriad Pro" , sans-serif;
+	text-transform: uppercase;	
+	margin: 0;
+	text-decoration: none;
+}
+
+.btn {
+	border: 1px solid #fff;
+	display: inline-block;
+	min-width: 160px;
+	padding: 0.9em;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 300;	
+}
+
+.btn:hover {
+	background-color: #f79b23;
+	color: #fff;
+	text-decoration: none;	
+}
+
+.center-content {
+	text-align: center;	
+}
+
+p.description {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 24px;
+	padding-bottom: 48px;	
+}
