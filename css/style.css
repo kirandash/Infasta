@@ -33,7 +33,7 @@ CSS Style Structure
 
 html {
 	width: 100%;
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 body {
@@ -145,4 +145,76 @@ p.description {
 	margin: 0 auto;
 	padding-top: 24px;
 	padding-bottom: 48px;	
+}
+
+/*
+2. Banner
+*/
+
+#bgimage {
+	width: 100%;
+	min-height: 670px;
+	text-align: left;
+	position: relative;	
+}
+
+#bgimage .logo {
+	padding-top: 40px;
+}
+
+#bgimage .heading-text {
+	padding-top: 30px;	
+}
+
+#bgimage .border {
+	padding-bottom: 10px;	
+}
+
+#bgimage.header-image {
+	background-image: url(../images/header-image.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	~webkit-background-size: cover;
+	~moz-background-size: cover;
+	~o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	overflow: hidden;
+}
+
+#bgimage .main-heading {
+	width: 55%;
+	margin-top: 72px;
+	color:#fff !important;
+}
+
+#bgimage .main-heading span{
+	color:#e0356e;
+}
+
+#bgimage.header-image h1:after {
+	border-top: 2px solid #fff;
+	display: block;
+	width: 120px;
+	margin: 30px 0;
+	content: "";
+}
+
+#bgimage.header-image p {
+	width: 50%;
+	color: #fff;
+	margin-bottom: 50px;	
+}
+
+.pink-btn {
+	background: #e0356e;
+	border: none;
+	margin-left: 10px;	
+}
+
+.pink-btn:hover {
+	background-color: #f79b23;
+	color: #fff;
+	text-decoration: none;
 }
