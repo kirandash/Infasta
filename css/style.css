@@ -442,3 +442,20 @@ p.description {
 	margin-bottom: 15px;
 	margin-top: 0;
 }
+
+/*
+6. Services section
+*/
+
+#services {
+	top: 200px;
+}
+
+#services h5 {
+	text-transform: none;
+	padding-bottom: 5px;
+}
+
+#services img {
+	padding-bottom: 24px;
+}
