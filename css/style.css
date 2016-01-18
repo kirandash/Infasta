@@ -91,8 +91,6 @@ h4 {
 	font-weight: 600;
 	font-family: "Myriad Pro" , sans-serif;
 	text-transform: uppercase;	
-	margin: 0;
-	color: #fff;
 }
 
 h5 {
@@ -165,6 +163,11 @@ p.description {
 
 #bgimage .heading-text {
 	padding-top: 30px;	
+}
+
+#bgimage .heading-text h4 {
+	color: #fff;
+	margin: 0;	
 }
 
 #bgimage .border {
@@ -311,4 +314,95 @@ p.description {
 	min-height: 50px;
 	margin-bottom: 0px;
 	border:none;	
+}
+
+/*
+4. About section
+*/
+
+#about {
+	padding-top: 0px;	
+}
+
+#about .title {
+	margin: 0;	
+}
+
+#about .about-info .media {
+	padding-top: 30px;	
+}
+
+#about .about-info .media:last-child {
+	margin-bottom: 0;	
+}
+
+#about .media .rect-pink {
+	background-color: #e0356e;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 24px;
+	text-align: center;
+}
+
+#about .media .fa {
+	padding-top: 22px;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+}
+
+.about-info .media .content h4 {
+	text-align: none;
+	margin-top: 0;
+}
+
+.about-info .media .content p {
+	padding-top: 10px;
+	text-align: none;
+	display: block;
+}
+
+.about-info .media .content p:last-child {
+	margin: 0;
+}
+
+#about p.choose-txt {
+	padding-top: 10px;
+}
+
+.skillbar {
+	background: #EFEFEF;
+	display: block;
+	height: 15px;
+	margin-bottom: 64px;
+	top: 65px;
+	position: relative;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: width, background-color;
+	transition-timing-function: linear;
+	width: 100%;
+}
+
+.skillbar-title {
+	color: #323232;
+	font-size: 14px;
+	left: 0;
+	position: absolute;
+	top: -40px;
+}
+
+.skillbar-title span {
+	display: block;
+	float: right;
+	margin-left: 75px;
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+.skillbar-bar.blue {
+	background-color: #e0356e;
+	height: 18px;
+	width: 0;
 }
