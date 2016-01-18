@@ -24,19 +24,41 @@ When the .scrollTop value is close enough to the .skillbar's top position, then 
 
 */
 
-var skillBarTopPos = jQuery('.skillbar').position().top;
-jQuery(document).scroll(function(){
-	var scrolled_val = $(document).scrollTop().valueOf();
-	if( scrolled_val > skillBarTopPos - 250 ) startAnimation();
-});
-
-function startAnimation(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width: jQuery(this).attr('data-percent')
-		}, 6000);
+	var skillBarTopPos = jQuery('.skillbar').position().top;
+	jQuery(document).scroll(function(){
+		var scrolled_val = $(document).scrollTop().valueOf();
+		if( scrolled_val > skillBarTopPos - 250 ) startAnimation();
 	});
-};
+	
+	function startAnimation(){
+		jQuery('.skillbar').each(function(){
+			jQuery(this).find('.skillbar-bar').animate({
+				width: jQuery(this).attr('data-percent')
+			}, 6000);
+		});
+	};
+	
+<!-- ============================================== -->
+<!-- ============ fancy box ============ -->
+<!-- ============================================== -->	
+
+/*
+I am using Fancybox plugin for playing a video on modal. How to play a video in full-screen mode on mobile mode on mobile for a crossdevice. I would rather use youtube in its embed format so you can open it as iframe with this html format.
+*/
+	$(".youtube-media").on("click", function(e){
+		var jWindow = $(window).width();
+		if(jWindow <= 410) {
+			return;
+		}
+		$.fancybox({
+			href: this.href,
+			padding: 4,
+			type: "iframe",
+			'href': this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+		});
+		return false;
+	});
+
 	
 });
 

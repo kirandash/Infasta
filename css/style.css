@@ -459,3 +459,21 @@ p.description {
 #services img {
 	padding-bottom: 24px;
 }
+
+/*
+7. Video section
+*/
+
+#video {
+	background: url(../images/videobg.jpg) 0 0 no-repeat;
+	width: 100%;
+	background-size: cover;
+	padding-top: 86px;
+	padding-bottom: 86px;
+	margin-top: 48px;
+	min-height: 550px;
+}
+
+#video .icon {
+	margin-top: 130px;
+}
