@@ -406,3 +406,39 @@ p.description {
 	height: 18px;
 	width: 0;
 }
+
+/*
+5. Feature section
+*/
+
+#features img {
+	width: 388px;
+	height: 531px;
+}
+
+#features p {
+	margin-top: 48px;
+}
+
+#features h4 {
+	margin: 0;
+}
+
+#features h5 {
+	text-transform: none;
+	padding-bottom: 5px;
+}
+
+#features .check-symbol {
+	width: 32px;
+	height: 32px;
+}
+
+#features span.feature-txt {
+	padding-left: 30px;
+}
+
+#features .feature-img {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
