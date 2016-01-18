@@ -59,6 +59,13 @@ I am using Fancybox plugin for playing a video on modal. How to play a video in 
 		return false;
 	});
 
+<!-- ============================================== -->
+<!-- ============ fancy box ============ -->
+<!-- ============================================== -->	
+
+	$('#portfolio a').nivoLightbox({
+		effect: 'fadeScale'
+	});
 	
 });
 
