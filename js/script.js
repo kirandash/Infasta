@@ -60,12 +60,29 @@ I am using Fancybox plugin for playing a video on modal. How to play a video in 
 	});
 
 <!-- ============================================== -->
+<!-- ============ owl carousel team ============ -->
+<!-- ============================================== -->	
+
+	$("#owl-carousel-team").owlCarousel({
+		
+		/*autoPlay: 3000, set autoPlay to 3 seconds*/
+		items : 4,
+		itemsDesktop : [1199, 3],
+		itemsDesktopSmall : [979,3],
+		
+		pagination : true,
+		paginationNumbers : false,
+		
+		responsive : true,
+		responsiveRefreshRate : 200,
+		responsiveBaseWidth : window
+		
+	});
+
+<!-- ============================================== -->
 <!-- ============ fancy box ============ -->
 <!-- ============================================== -->	
 
-	$('#portfolio a').nivoLightbox({
-		effect: 'fadeScale'
-	});
 	
 });
 
