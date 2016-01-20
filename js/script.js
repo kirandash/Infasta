@@ -9,7 +9,38 @@ $(document).ready(function(){
 		target: '.navbar',
 		offset: 160
 	});	
+
+<!-- ============================================== -->
+<!-- ============ scrollTop.js ============ -->
+<!-- ============================================== -->
+
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 2000);
+		return false;
+	});
 	
+<!-- ============================================== -->
+<!-- ============ scrolldown.js ============ -->
+<!-- ============================================== -->
+
+	$('scrolldown a').bind('click', function(){
+		$('html, body').stop().animate({
+			scrollTop: $($(this).attr('href')).offset().top - 160
+		}, 1500, 'easeInOutExtp');
+		event.preventDefault();
+	});
+
+<!-- ============================================== -->
+<!-- ============ navbardown.js ============ -->
+<!-- ============================================== -->
+
+	$('.nav a').bind('click', function(){
+		$('html, body').stop().animate({
+			scrollTop: $($(this).attr('href')).offset().top - 80
+		}, 1500, 'easeInOutExtp');
+		event.preventDefault();
+	});
+			
 <!-- ============================================== -->
 <!-- ============ skillbar ============ -->
 <!-- ============================================== -->
