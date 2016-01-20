@@ -738,3 +738,79 @@ figure.effect-lily:hover p {
 .owl-pagination {
 	margin-top: 48px;
 }
+
+/*
+10. Latest news section
+*/
+
+#news {
+	padding: 100px 0px;
+	background: #f4f4f4;
+	text-align: center;
+}
+
+#news .text-right {
+	text-align: right;
+}
+
+.newsImage {
+	padding: 50px;
+	margin-bottom: 48px;
+}
+
+.newsImage.news1 {
+	background: url("../images/blog/1.jpg") left center no-repeat;
+}
+
+.newsImage.news2 {
+	background: url("../images/blog/2.jpg") right center no-repeat;
+}
+
+.newsImage.news3 {
+	background: url("../images/blog/3.jpg") left center no-repeat;
+}
+
+.newsWrapper {
+	border: 4px solid #e4e4e4;
+	padding: 40px;
+	margin: 0px;
+	text-align: left;
+}
+
+.newsDate {
+	background: #e0356e;
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.newsWrapper h4 {
+	margin-top: 24px;
+	text-transform: none;
+}
+
+.newsWrapper a {
+	text-decoration: none;
+}
+
+.newsDate h2 {
+	color: #fff;
+}
+
+.newsDate span {
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 24px;
+	color: #fff;
+}
+
+a.newsLink:hover h2, .newsLink:focus h2 {
+	color: #fff;
+}
+
+.postedBy {
+	display: block;
+	border-top: 1px dashed #ccc;
+	padding-top: 10px;
+	font-size: 12px;
+}
