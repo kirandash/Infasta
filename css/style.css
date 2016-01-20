@@ -876,3 +876,40 @@ section.module-black .button {
 .contact-top {
 	margin-bottom: 48px;
 }
+
+/*
+13. Message section
+*/
+
+#message {
+	background: #d7d7d7;
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+.send {
+	padding-left: 24px;
+}
+
+#message h2 {
+	color: #e0356e;
+	padding-bottom: 24px;
+}
+
+#message .form-group .form-control {
+	padding: 25px;
+}
+
+#message .pink-btn {
+	background: #e0356e;
+	border: none;
+	margin-left: 10px;
+	text-transform: none;
+	margin-top: 24px;
+}
+
+#message .pink-btn:hover {
+	background-color: #f79b23;
+	color: #fff;
+	text-decoration: none;
+}
