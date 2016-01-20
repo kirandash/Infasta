@@ -913,3 +913,27 @@ section.module-black .button {
 	color: #fff;
 	text-decoration: none;
 }
+
+/*
+14. Map section
+*/
+
+.map .map-heading, .copyright-bg {
+	background: #000;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.map .map-heading h5 {
+	color: #fff;
+	text-transform: none;
+}
+
+.copyright p {
+	color: #fff;
+}
+
+#map {
+	width: 100%;
+	height: 450px;
+}
