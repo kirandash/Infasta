@@ -850,3 +850,29 @@ section.module-black.myparallax {
 section.module-black .button {
 	margin-top: 48px;
 }
+
+/*
+12. Get in touch section
+*/
+
+#contact .contact-info p {
+	margin: 0;
+	font-size: 14px;
+}
+
+#contact .contact-info h5 {
+	margin-bottom: 14px;
+}
+
+#contact .social .left-margin {
+	margin-left: 10px;
+}
+
+#contact .social img {
+	width: 32px;
+	height: 32px;
+}
+
+.contact-top {
+	margin-bottom: 48px;
+}
