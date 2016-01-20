@@ -814,3 +814,39 @@ a.newsLink:hover h2, .newsLink:focus h2 {
 	padding-top: 10px;
 	font-size: 12px;
 }
+
+/*
+11. Parallax banner
+*/
+
+section.module-black.myparallax {
+	background-image: url(../images/banner-black.jpg);
+	min-height: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.module-black .content h2 {
+	color: #fff;
+}
+
+.module-black p {
+	color: #fff;
+}
+
+.img-overlay {
+	display: block;
+	min-height: 100%;
+	width: 100%;
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+section.module-black .button {
+	margin-top: 48px;
+}
