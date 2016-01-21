@@ -23,7 +23,7 @@ $(document).ready(function(){
 <!-- ============ scrolldown.js ============ -->
 <!-- ============================================== -->
 
-	$('scrolldown a').bind('click', function(){
+	$('.scrolldown a').bind('click', function(){
 		$('html, body').stop().animate({
 			scrollTop: $($(this).attr('href')).offset().top - 160
 		}, 1500, 'easeInOutExtp');
@@ -109,10 +109,6 @@ I am using Fancybox plugin for playing a video on modal. How to play a video in 
 		responsiveBaseWidth : window
 		
 	});
-
-<!-- ============================================== -->
-<!-- ============ fancy box ============ -->
-<!-- ============================================== -->	
 
 	
 });
