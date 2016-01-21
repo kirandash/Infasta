@@ -287,6 +287,8 @@ p.description {
 	display: block;
 	padding: 15px 20px;
 	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 	margin: 0;
 	text-decoration: none;
 	line-height: 30px;
@@ -309,6 +311,17 @@ p.description {
 	float: left;
 	width: 610px;
 	margin: 0;
+}
+
+.slides-pagination a {
+	border: 0;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	text-indent: -200%;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 }
 
 /*

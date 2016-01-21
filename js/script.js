@@ -40,7 +40,21 @@ $(document).ready(function(){
 		}, 1500, 'easeInOutExtp');
 		event.preventDefault();
 	});
-			
+
+<!-- ============================================== -->
+<!-- ============ superslides ============ -->
+<!-- ============================================== -->
+
+	$('#slides').superslides({
+		animation: "fade",
+		play: 10000,
+		slide_easing: 'easeInOutCubic',
+		slide_speed: 800,
+		pagination: true,
+		hashchange: false,
+		scrollable: true
+	});
+				
 <!-- ============================================== -->
 <!-- ============ skillbar ============ -->
 <!-- ============================================== -->
@@ -110,6 +124,7 @@ I am using Fancybox plugin for playing a video on modal. How to play a video in 
 		
 	});
 
+	new WOW().init();
 	
 });
 
