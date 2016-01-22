@@ -1,0 +1,33 @@
+/*Responsive css*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#bgimage .main-heading {
+		font-size: 40px;
+		width: 60%;
+		line-height: 44px;
+	}
+	
+	#bgimage h4 {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+	#bgimage .main-heading {
+		font-size: 36px;
+		width: 60%;
+		line-height: 40px;
+	}
+	
+	#bgimage h4 {
+		font-size: 20px;
+	}
+	
+	.main-menu .navbar-nav > li > a {
+		font-size: 12px;
+	}
+	
+	.navbar-nav > li > a {
+		padding: 0px 7px 10px 0px;
+	}
+}
