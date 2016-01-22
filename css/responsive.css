@@ -31,3 +31,81 @@
 		padding: 0px 7px 10px 0px;
 	}
 }
+
+@media (max-width: 776px) {
+	
+	.navbar-collapse {
+		max-height: 355px !important;
+		padding-bottom: 15px;
+		padding-right: 15px;
+		padding-left: 15px;
+		overflow-x: visible;
+		border-top: 1px solid transparent;
+	}
+	
+	.navbar-nav {
+		width: 100%;
+	}
+	
+	#bgimage .main-heading {
+		font-size: 20px;
+		width: 60%;
+		line-height: 22px;
+	}
+	
+	#bgimage h4 {
+		font-size: 12px;
+	}
+	
+	#bgimage .logo {
+		width: 100px;
+	}
+	
+	.button .btn {
+		min-width: 100px;
+		padding: .7em;
+		height: 40px;
+		font-size: 14px;
+	}
+	
+	.banner h2 {
+		min-width: 200px;
+		width: 320px;
+		font-size: 26px;
+	}
+	
+	.chooseus {
+		margin-top: 96px;
+	}
+	
+	#features .bigimage img {
+		width: 400px;
+		height: 500px;
+		margin: 0 auto;
+	}
+	
+	#features .facts {
+		margin-top: 48px;
+	}
+	
+	.vid-icon img {
+		width: 170px;
+		height: 70px;
+	}
+	
+	figure.effect-lily h4 {
+		font-size: 16px;
+	}
+	
+	figure.effect-lily p {
+		font-size: 14px;
+	}
+	
+	module-black .content p {
+		font-size: 14px;
+		width: 90%;
+	}
+	.send {
+		padding-left: 30px;
+	}
+}
