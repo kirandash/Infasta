@@ -26,7 +26,7 @@ $(document).ready(function(){
 	$('.scrolldown a').bind('click', function(){
 		$('html, body').stop().animate({
 			scrollTop: $($(this).attr('href')).offset().top - 160
-		}, 1500, 'easeInOutExtp');
+		}, 1500, 'easeInOutExpo');
 		event.preventDefault();
 	});
 

@@ -228,7 +228,7 @@ p.description {
 }
 
 #bgimage .scroll_btn {
-	background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215,181,94,0);
+	background: url(../images/scroll.png) 50% 50% no-repeat rgba(215,181,94,0);
 	border: 2px solid #fff;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -245,7 +245,7 @@ p.description {
 }
 
 #bgimage .scroll_btn:hover {
-	background: url(../images/scroll.gif) 50% 50% no-repeat #E03561;
+	background: url(../images/scroll.png) 50% 50% no-repeat #E03561;
 	opacity: 0.85;
 	-moz-opacity: 0.85;
 	-o-opacity: 0.85;
